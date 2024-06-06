@@ -1,4 +1,4 @@
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     body.template-product .section-main-product .container {
         max-width: 1752px;
         margin-left: auto;
@@ -29,7 +29,7 @@
     body.template-product .section-main-product .product-detail .product-column-right {
         width: 38%;
         margin-left: 0;
-        padding-left: 4px;
+        
     }
 }
 @media (min-width: 1024px) {
@@ -46,7 +46,6 @@
         width: 25%;
         max-width: 296px;
         margin-left: 0;
-        padding-left: 12px;
     }
 }
 @media (min-width: 1331px) {
