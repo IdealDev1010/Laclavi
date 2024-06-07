@@ -830,6 +830,10 @@ body.template-suffix-custom-product .product-recommendations .container .hometit
 .metafield-slider.slick-initialized.slick-slider .image-wrap {
     margin:0 8.5px;
 }
+
+.metafield-slider.slick-initialized.slick-slider .image-wrap.slick-slide {
+  aspect-ratio: 0.788;
+}
 .metafield-slider .slick-arrow {
     width: 48px;
     height: 48px;
