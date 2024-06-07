@@ -686,7 +686,7 @@ body.template-suffix-contact-template .contact-right .lightly-spaced-row button 
 .order-shipping-text-wrap .order-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: space-between;
   gap: 0;
 }
 
@@ -760,7 +760,7 @@ body.template-suffix-contact-template .contact-right .lightly-spaced-row button 
 .return-policy-text-wrap .return-policy-row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: space-between;
   gap: 0;
 }
 
@@ -5480,7 +5480,7 @@ body.template-index .shopify-section.section-rich-text .fully-spaced-row--medium
 }
 
 .shopify-section.section-collection-list .collection-slider-row.for-collections .container {
-  padding-inline: 10px;
+  padding-inline: 54px;
   /* padding-inline: 54px; */
   max-width: 100%;
   width: 100%;

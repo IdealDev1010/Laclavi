@@ -1302,6 +1302,7 @@ body.template-suffix-custom-collection #content .container.cf {
   align-items: center;
   justify-content: space-between;
   margin: 0 0 48px;
+  padding: 0 44px;
 }
 
 .section-special-featured-collection .collection-slider-row .special-collection-top .hometitle {
@@ -2651,4 +2652,3 @@ body.template-suffix-custom-collection #content .container.cf {
     font-size: 24px;
   }
 }
-
