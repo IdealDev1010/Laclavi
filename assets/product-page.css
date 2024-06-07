@@ -721,6 +721,7 @@ body.template-suffix-custom-product .custom-accordion+.custom-accordion {
 .custom-product-info-accordion .set-content .set-content-row .gallery-slider .slick-slide {
     margin: 0 8px;
     height: auto;
+    aspect-ratio: 0.83;
 }
 .custom-product-info-accordion .set-content .set-content-row .gallery-slider .slick-slide img {
     display: block;
@@ -1191,6 +1192,10 @@ body.template-suffix-custom-product .section-main-product .custom-accordion .cc-
   .custom-product-info-accordion .set-content .set-content-image-col .image-wrap {
       flex: 0 0 268px;
   }
+
+  .custom-product-info-accordion .set-content .set-content-image-col .image-wrap.slick-slide {
+    flex: 0 0 268px;
+}
   .custom-product-info-accordion .set-content .set-content-text-col .text-top .text-block h6 {
     font-size: 16px;
     line-height: 24px;
