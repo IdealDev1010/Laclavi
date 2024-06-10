@@ -1461,4 +1461,11 @@ body.template-suffix-custom-product .section-main-product .custom-accordion .cc-
   }
   
 }
+
+@media (min-width:769px) {
+  .custom-product-info-accordion .set-content .set-content-text-col {
+    aspect-ratio: 0.788;
+}
+  
+}
 /*=============================== Product page responsive Ends ===============================*/

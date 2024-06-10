@@ -9,7 +9,7 @@
 
 <div class="section-id-{{ section.id }} collection-slider-row {% if section.settings.use_alt_bg %}use-alt-bg{% endif %}" data-section-type="featured-collection" data-components="accordion,modal,price-range">
   <div class="container{% if section.settings.enable_carousel %} container--not-mobile{% endif %}{% if section.settings.full_width %} container--no-max{% endif %}">
-    <div class="{% if section.settings.enable_carousel %}collection-slider{% endif %}">
+    <div class="collection-slider-container {% if section.settings.enable_carousel %}collection-slider{% endif %}">
       <div class="special-collection-top">
       <h1 class="hometitle h1-style align-center has-paging">
         <a class="has-paging__title" href="{{ section.settings.collection.url }}"><span>{{ section.settings.title | escape }}</span></a>
